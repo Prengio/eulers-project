@@ -3,7 +3,7 @@
 def is_palindrome(n):
     digits = list(str(n))
     if digits == list(reversed(digits)):
-        return n
+        return True
 
 
 palindromes = []
@@ -11,7 +11,7 @@ palindromes = []
 # we can assume the range is 900 to 1000 to reduce computation
 for i in range(900, 1000):
     for j in range(900, 1000):
-        if is_palindrome(i * j) == i * j:
+        if is_palindrome(i * j) == True:
             palindromes.append(i * j)
 
 print(max(palindromes))

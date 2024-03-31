@@ -2,11 +2,8 @@
 
 def is_palindrome(n):
     digits = list(str(n))
-    length = len(digits)
-    for i in range(0, length // 2):
-        if digits[i] != digits[-i - 1]:
-            return False
-    return n
+    if digits == list(reversed(digits)):
+        return n
 
 
 palindromes = []

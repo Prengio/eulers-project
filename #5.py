@@ -1,0 +1,1 @@
+# its just the product of the numbers under 20 with one prime factor and largest exponent

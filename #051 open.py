@@ -1,12 +1,7 @@
 import func
-from time import process_time
 
+n = 8
+primes = [i for i in func.Sieve_Of_Eratosthenes(10**n) if i!= 0 if i!= 1 if len(str(i)) == n]
+print(len(primes))
 
-primes = []
-for i in range(1, 10_000_001, 2):
-    if func.is_prime(i) == True:
-        primes.append(i)
-
-print (primes, '\n')
-print (len(primes))
-print (process_time())
+func.time()

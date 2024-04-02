@@ -40,5 +40,3 @@ def Sieve_Of_Eratosthenes(a):
 def time():
     print(process_time())
 
-def permutation(elements):
-    return 'todo'

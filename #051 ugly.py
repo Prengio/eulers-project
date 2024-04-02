@@ -2,9 +2,10 @@ import func
 import copy
 import itertools
 # this is probably some of the worst code you will see
-# the code takes 15 minutes to run and need to be manually changed for different numbers of digits
+# the code takes like 45 minutes to run and need to be manually changed for different numbers of digits
+# and in those 45 minutes it only gets to removing 4 digits
 n=6
-m = 8
+m = 6
 primes = [i for i in func.Sieve_Of_Eratosthenes(10 ** n) if i != 0 if i != 1 if len(str(i)) == n]
 permanent_primes = []
 for i in primes:

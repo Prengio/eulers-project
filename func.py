@@ -34,6 +34,7 @@ def Sieve_Of_Eratosthenes(a):
             for i in range(p * p, a + 1, p):
                 primes[i] = 0
         p += 1
+    primes.remove(1)
     return primes
 
 

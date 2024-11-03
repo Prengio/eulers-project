@@ -1,2 +1,3 @@
-n = 10**(9.5)
-print(n)
+import numpy as np
+
+print(np.roots([1, -3, 2]))

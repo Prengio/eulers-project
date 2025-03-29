@@ -1,1 +1,1 @@
-yo yo. If you're looking to touch grass, trust me bro, you wont find any here
+If you're looking to touch grass, trust me bro, you wont find any here
